@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+It initializes an empty git repository in the current directory. To create a repository on github, you have to first initialize the repository on your local directory and then after the files which have to be kept in repository are pushed in github using local repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area is a middlestep between working directory and repository. It acts as temporary storage before commiting the changes to add files to repository.
