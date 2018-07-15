@@ -3,3 +3,18 @@ It initializes an empty git repository in the current directory. To create a rep
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area is a middlestep between working directory and repository. It acts as temporary storage before commiting the changes to add files to repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+We can use "git diff --staged" to find out what are the changes we have made and thus helping us identifying the changes we want to commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+For introducing new features when you are not sure about bugs, branching helps us without affecting the master branch which is official and working. Branching can be helpful when you secretly want to build some features and create anticipation of people for your software.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams are the necessary part of learning phase and help us clarifying the overall picture of the whole working going on to the repository. With the help of diagrams, we get the overview of how things are working so that we can map the things and understand better.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging lets us use the two features of the same product in one merged product/software. This way, we are able to use various features when they become stable. We represent it in the diagram to get the picture of all the changes we made throughout the merged state.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Pros of automatic merging are user does not get prompt to check again and again for conflicts but it sometimes merges files without proper resolution of conflicts. While manual merging allows the user to resolve the complex conflicts which would not have been possible using automatic merging.
