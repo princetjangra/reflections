@@ -15,3 +15,6 @@ A contributer is able to view if he/she wants to update the files. Also, the use
 
 How would you collaborate without using Git or Github? What would be easier, and what could be harder?
 Collaboration without Git or Github would be possible only via network drives and online storage providers like Google Drive, Dropbox etc. by sharing files but it would be difficult for large projects. Easy thing would be that users do not need to learn to use those because they are as simple as browsing a file explorer. Harder thing would be that it becomes more difficult when using these alternatives for large projects and users get confused if not understands the things specified by the other collaborator.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When I want to add a new feature without compromising the errors in the master branch, I would like to make changes into a separate branch and also, I can create pull requests in the separate branch for people to review my work and make corrections in the files. Working in separate beanches also brings the extra work of pulling the branch locally and then merging the pull request which are not carried out while working in the master branch. Each have its own advantages and disadvantages.
