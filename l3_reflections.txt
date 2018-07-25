@@ -12,3 +12,6 @@ When we want to add more features in a project but do not wish to change the mas
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 A contributer is able to view if he/she wants to update the files. Also, the user can start the further progress by having the last known state of the files causing better contribution.
+
+How would you collaborate without using Git or Github? What would be easier, and what could be harder?
+Collaboration without Git or Github would be possible only via network drives and online storage providers like Google Drive, Dropbox etc. by sharing files but it would be difficult for large projects. Easy thing would be that users do not need to learn to use those because they are as simple as browsing a file explorer. Harder thing would be that it becomes more difficult when using these alternatives for large projects and users get confused if not understands the things specified by the other collaborator.
